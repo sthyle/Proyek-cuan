@@ -1,5 +1,5 @@
 {
-  "name": "web3-cuan",
+  "name": "web3-wallet-2026",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "devDependencies": {
-    "hardhat": "^3.1.1"
+  "type": "commonjs",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "axios": "^1.13.2",
+    "bs58": "^6.0.0",
+    "cross-fetch": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.16.0",
+    "https-proxy-agent": "^7.0.6",
+    "node-fetch": "^2.7.0",
+    "socks-proxy-agent": "^8.0.5",
+    "viem": "^2.43.5"
   }
 }
